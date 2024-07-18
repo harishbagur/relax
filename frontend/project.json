@@ -19,7 +19,7 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "/assets"
+            "input": "./src/public"
           }
         ],
         "styles": ["./src/styles.scss"],

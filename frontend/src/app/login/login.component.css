@@ -71,3 +71,7 @@ img{
   width: 12vw;
   height: 18vh;
 }
+
+span{
+  cursor: pointer;
+}
