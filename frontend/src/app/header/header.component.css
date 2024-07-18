@@ -1,0 +1,38 @@
+ 
+ *{
+    font-family: cursive;
+   }
+   .navbar{
+      background-color: #ffa1b2;
+    }
+  
+    li{
+  a{
+      color: white;
+      font-weight: bolder;
+      
+  }
+    }
+  
+    .sidenav {
+      height: calc(100% - 56px); /* Adjust based on the height of the navbar */
+      width: 250px;
+      position: fixed;
+      top: 56px; /* Adjust based on the height of the navbar */
+      left: 0;
+      background-color: #a08585;
+      padding-top: 20px;
+  }
+  .sidenav a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+  }
+  .sidenav a:hover {
+      background-color: #575757;
+      color: white;
+  }
+  
+  
