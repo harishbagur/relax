@@ -2,12 +2,15 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from '../header/header.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+
 import Chart from 'chart.js/auto';
+
 
 @Component({
   selector: 'app-caretaker',
   standalone: true,
-  imports: [CommonModule,HeaderComponent,MatCardModule,],
+  imports: [CommonModule,HeaderComponent,MatCardModule,MatIconModule],
   templateUrl: './caretaker.component.html',
   styleUrl: './caretaker.component.css',
 })
@@ -28,13 +31,13 @@ export class CaretakerComponent {
 								 '2022-05-14', '2022-05-15', '2022-05-16','2022-05-17', ], 
 	       datasets: [
           {
-            label: "Sales",
+            label: "Med- left",
             data: ['467','576', '572', '79', '92',
 								 '574', '573', '576'],
             backgroundColor: 'blue'
           },
           {
-            label: "Profit",
+            label: "Left",
             data: ['542', '542', '536', '327', '17',
 									 '0.00', '538', '541'],
             backgroundColor: 'limegreen'
