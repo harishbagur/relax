@@ -53,3 +53,9 @@
     margin-left: 2px;
   }
   
+
+  img{
+    height: 16em;
+    width: 15vw;
+    border-radius: 20%;
+  }
