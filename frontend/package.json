@@ -10,7 +10,6 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.1.0",
-    "@angular/cdk": "^18.1.1",
     "@angular/common": "~18.1.0",
     "@angular/compiler": "~18.1.0",
     "@angular/core": "~18.1.0",
@@ -19,11 +18,9 @@
     "@angular/platform-browser": "~18.1.0",
     "@angular/platform-browser-dynamic": "~18.1.0",
     "@angular/router": "~18.1.0",
-    "@google-cloud/speech": "^6.6.1",
     "@ng-bootstrap/ng-bootstrap": "^17.0.0",
     "@ng-web-apis/speech": "^4.2.0",
     "@nx/angular": "19.5.0",
-    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.3",
     "jquery": "^3.7.1",
@@ -31,7 +28,6 @@
     "ngx-owl-carousel-o": "^18.0.0",
     "ngx-speech-recognition": "^0.0.4",
     "owl.carousel": "^2.3.4",
-    "popper.js": "^1.16.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
