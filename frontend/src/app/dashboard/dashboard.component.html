@@ -1,16 +1,20 @@
- <app-header></app-header>
+<app-header></app-header>
 <div class="main">
-  <div style="display: flex;">
+  <div style="display: flex">
     <mat-card class="avatar">
       <!-- <mat-card-content> -->
-        <img src="./images/g2.gif" alt="">
+      <img src="./images/g2.gif" alt="" />
       <!-- </mat-card-content> -->
     </mat-card>
     <mat-card class="memo">
       <div class="gallery-container">
         <ngb-carousel *ngIf="photos.length">
           <ng-template ngbSlide *ngFor="let photo of photos">
-            <img [src]="photo.src" [alt]="photo.title" class="d-block w-100 carousel-image">
+            <img
+              [src]="photo.src"
+              [alt]="photo.title"
+              class="d-block w-100 carousel-image"
+            />
             <div class="carousel-caption">
               <h3>{{ photo.title }}</h3>
             </div>
@@ -22,13 +26,10 @@
   <div>
     <div class="speech-input-container">
       <input type="text" [(ngModel)]="text" placeholder="Type or speak here" />
-      <button class="mic-button">
-        🎤
-      </button>
+      <button class="mic-button" (click)="speak('Hi how are you')">🎤</button>
     </div>
   </div>
 </div>
-
 
 <!-- <div >
   <app-caretaker></app-caretaker>
