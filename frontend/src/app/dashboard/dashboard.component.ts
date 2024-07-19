@@ -6,11 +6,12 @@ import {MatCardModule} from '@angular/material/card'
 import { FormsModule } from '@angular/forms';
 import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { CaretakerComponent } from '../caretaker/caretaker.component';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CommonModule, RouterModule, HeaderComponent,MatCardModule,FormsModule,NgbCarouselModule],
+  imports: [CommonModule, RouterModule, HeaderComponent,MatCardModule,FormsModule,NgbCarouselModule,CaretakerComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css',
 })
